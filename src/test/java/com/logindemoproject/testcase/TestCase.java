@@ -10,7 +10,7 @@ public class TestCase extends BaseClass
 	@Test(priority = 0)
 	void login()
 	{
-		driver.get(url);
+		driver.get(url);//enter url
 		Login login=new Login(driver);
 		login.getUsername("student");
 		login.getPassword("Password123");
